@@ -65,14 +65,3 @@ Veredicto: La inversión en la Opción C se justifica debido a que cada pasarela
 Conclusiones
 El desarrollo de esta actividad permitió evidenciar cómo la arquitectura en capas resulta ideal para CRUDs y reglas de negocio centradas en la persistencia interna, manteniendo una estructura limpia y mantenible. Por otro lado, la incorporación de un puerto de dominio en la Parte 2 demostró el valor de la Arquitectura Hexagonal cuando el sistema debe interactuar con proveedores externos con contratos heterogéneos. La principal lección aprendida es que los patrones arquitectónicos no deben aplicarse por dogma, sino evaluando conscientemente los trade-offs entre complejidad y flexibilidad.
 
-
----
-
-## Paso 8: Push Final a GitHub
-
-Sube el README consolidado para cerrar la entrega[cite: 18, 20]:
-
-```bash
-git add README.md
-git commit -m "docs: completar README con decisiones de diseño y trade-off de la Parte 2"
-git push origin main
